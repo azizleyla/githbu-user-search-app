@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> GitHub user search app</title>
+  <!--------Font Family--------------->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!---------Custom Css--------------->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="top">
+      <div class="logo-container">
+        <h2>devfinder</h2>
+      </div>
+      <div class="switcher-container">
+        <p>Light</p>
+        <img src="images/icon-moon.svg" class="switch-btn" alt="moon">
+      </div>
+    </div>
+    <form id="form" class="search-form">
+      <input type="text" class="search-input" placeholder="Search GitHub username...">
+      <div class="right">
+        <p class="alert">No results</p>
+        <button type="submit" class="search-btn">Search</button>
+      </div>
+
+    </form>
+    <div class="user-container">
+   
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
